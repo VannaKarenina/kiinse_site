@@ -6,11 +6,11 @@ module.exports = {
     },
     devServer: {
     disableHostCheck: true,
-    port: 8080,
+    port: 3000,
     host: 'localhost',
     key: fs.readFileSync('./key.pem'),
     cert: fs.readFileSync('./cert.pem'),
-    public: 'https://62.109.30.34:8080/',
+    public: 'https://62.109.30.34:3000/',
     https: true,
     hotOnly: false
    }
